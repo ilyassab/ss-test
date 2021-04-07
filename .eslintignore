@@ -1,0 +1,14 @@
+/.c9
+/.git
+/dist
+/build
+/coverage
+/lib
+/config
+**/lib/**
+**/dist/**
+**/types/**
+**/icons/src/**
+**/node_modules/**
+**/migrations/**
+next-env.d.ts

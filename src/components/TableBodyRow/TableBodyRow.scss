@@ -1,0 +1,9 @@
+.tableBodyRow:nth-child(2n) {
+  background: rgba(0,0,6,.03);
+}
+
+.tableBodyRow td {
+  white-space: nowrap;
+  padding: 0 12px;
+  width: 16.6%;
+}

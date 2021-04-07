@@ -1,0 +1,11 @@
+.tableHeadRow {
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.tableHeadCell {
+  text-align: left;
+  padding: 10px 12px 6px;
+  width: 16.6%;
+  user-select: none;
+  cursor: pointer;
+}

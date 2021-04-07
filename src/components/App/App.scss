@@ -1,0 +1,13 @@
+.container {
+  max-width: 720px;
+  margin-top: 40px;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

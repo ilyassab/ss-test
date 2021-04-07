@@ -1,0 +1,102 @@
+.tableBodyCell {
+  white-space: nowrap;
+  padding: 0 12px;
+  width: 16.6%;
+  animation-duration: .1s;
+}
+
+@keyframes up {
+  0% {
+    text-shadow: 0 0 1px green;
+    background-color: rgba(0,255,0,.1);
+    color: green
+  }
+
+  50% {
+    text-shadow: 0 0 1px green;
+    background-color: rgba(0,255,0,.1);
+    color: green
+  }
+
+  to {
+    text-shadow: none;
+    background-color: initial;
+    color: #223
+  }
+}
+
+@keyframes down {
+  0% {
+    text-shadow: 0 0 1px red;
+    background-color: rgba(255,0,0,.1);
+    color: red
+  }
+
+  50% {
+    text-shadow: 0 0 1px red;
+    background-color: rgba(255,0,0,.1);
+    color: red
+  }
+
+  to {
+    text-shadow: none;
+    background-color: initial;
+    color: #223
+  }
+}
+
+.tableBodyCellGreen {
+  animation-name: up
+}
+
+.tableBodyCellRed {
+  animation-name: down
+}
+
+.tableBodyCellGreenDarkTheme {
+  animation-name: upDark;
+}
+
+.tableBodyCellRedDarkTheme {
+  animation-name: downDark;
+}
+
+@keyframes upDark {
+  0% {
+    text-shadow: 0 0 1px rgb(42,161,152);
+    background-color: rgba(42,161,152,.1);
+    color: rgb(42,161,152);
+  }
+
+  50% {
+    text-shadow: 0 0 1px rgb(42,161,152);
+    background-color: rgba(42,161,152,.1);
+    color: rgb(42,161,152);
+  }
+
+  to {
+    text-shadow: none;
+    background-color: initial;
+    color: white;
+  }
+}
+
+@keyframes downDark {
+  0% {
+    text-shadow: 0 0 1px rgb(211,54,130);
+    background-color: rgba(211,54,130,.1);
+    color: rgb(211,54,130);
+  }
+
+  50% {
+    text-shadow: 0 0 1px rgb(211,54,130);
+    background-color: rgba(211,54,130,.1);
+    color: rgb(211,54,130);
+  }
+
+  to {
+    text-shadow: none;
+    background-color: initial;
+    color: white;
+  }
+}
